@@ -469,10 +469,9 @@ a.back-to-top:hover, a.back-to-top:focus{
 }
 .navbar-light .navbar-toggler{
 	float: right;
-	margin: 14px;
 	cursor: pointer;
-    background-color: #08d665;
-	border-color: #08d665;
+    background-color: #9cf6f6;
+	border-color: #9cf6f6;
 	border-radius: 0;
 }
 .navbar-light .navbar-toggler-icon{
@@ -859,8 +858,11 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
 .bottomRow {
 	width: 100%;
 	display: flex;
-	flex-direction: row;
 	justify-content: space-evenly;
+}
+.topRow {
+	width: 100%;
+	display: flex;
 }
 /* ==========================================================================
 06. End Portfolio Area
